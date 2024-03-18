@@ -1,3 +1,7 @@
+#วิธีที่ 1 install only SDK
+ curl https://sdk.cloud.google.com | bash
+
+#วิธีที่ 2 Full install
 sudo apt-get update
 sudo apt-get install apt-transport-https ca-certificates gnupg curl
 sudo curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
