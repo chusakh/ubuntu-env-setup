@@ -1,6 +1,8 @@
 #วิธีที่ 1 install only SDK
  curl https://sdk.cloud.google.com | bash
-
+# snap
+snap install google-cloud-cli  # version 468.0.0, or
+snap install google-cloud-sdk  # version 468.0.0
 #วิธีที่ 2 Full install
 sudo apt-get update
 sudo apt-get install apt-transport-https ca-certificates gnupg curl
